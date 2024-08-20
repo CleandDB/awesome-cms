@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "awesome-cms"
+version = "0.1.0"
+description = "📚 A collection of open and closed source Content Management Systems (CMS) for your perusal."
+authors = ["postlight"]
+license = "CC0"
+readme = "README.md"
+packages = [{include = "awesome_cms"}]
+
+[tool.poetry.dependencies]
+python = "3.11.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
